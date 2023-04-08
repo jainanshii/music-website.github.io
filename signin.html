@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up </title>
+    <style>
+      body {
+
+            background-color:black;
+            background-size: 100%;
+            
+      }
+      form {
+            background-color: rgb(255, 255, 255);
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+            
+        }
+        h1{
+          color:darkslateblue;
+          font-family:Chaparral Pro Light;
+          font-size:220%;
+        }
+        
+    </style>
+</head>
+<body>
+    <!--survey form we need to submit info so we will use form -->
+    <!--Also we can give absolute/relative url -->
+    <!--form action="some_action" method="POST"></form>-->
+        
+        
+<form align="center" action="/mainpage.html" >
+<div Align="center"></div>
+    <h1>Sign Up</h1>
+
+Enter your name:
+<input type="text" name="UserName" size=35 maxlength=35 value="" required placeholder="eg:-abc">
+</br></br>
+
+Enter your email-id:
+<input type="email" name="email" size=35 maxlength=35 value="" required placeholder="eg:-abc@gmail.com" required></br></br>
+
+Enter your Phone number:
+<input type="tel" name="phno"  value="" required placeholder="eg:-23****9" required></br></br>
+Enter Password:
+<input type="password" name="phno"  value=""  required></br></br>
+
+
+What types of songs do you like?
+<!--Select box lets you choose one of the multiple dropdown options-->
+<select name="moviepref" >
+<option>
+<option value=1 selected = "true">Romantic
+<option value=2 >Disco
+<option value=3 >Lofi
+<option value=4 >Slow songs
+<option value=5 >Fast songs
+</select>
+</br></br>
+<!--submits the information entered in the form by the user -->
+<input type=submit value="Submit form">
+</div>
+
+</form>
+</body>
+</html>
